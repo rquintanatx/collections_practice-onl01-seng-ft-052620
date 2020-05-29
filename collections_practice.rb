@@ -14,4 +14,6 @@ def sort_array_desc(int_array)
   end
 end  
 
-def
+def sort_array_char_count(int_array)
+  int_array.sort do |a,b|
+end  
