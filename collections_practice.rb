@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(int_array)
   int_array.sort 
 end
@@ -46,3 +48,5 @@ def kesha_maker(array)
     kesha_array << kesha_string
   end
 end  
+
+kesha_maker()
