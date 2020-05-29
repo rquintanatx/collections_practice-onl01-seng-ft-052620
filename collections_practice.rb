@@ -58,5 +58,13 @@ def sum_array(int_array)
 end
 
 def add_s(array)
-  
+  array[0] + "s"
+  i = 2 
+  while i < array.length
+    array[i] + "s"
+    i += 1
+  end  
+end
+
+
   
