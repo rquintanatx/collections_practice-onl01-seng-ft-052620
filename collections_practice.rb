@@ -36,3 +36,13 @@ end
 def reverse_array(array)
   array.reverse
 end  
+
+def kesha_maker(array)
+  kesha_array = []
+  array.each do |string|
+    string_exp = string.split
+    string_exp[2] = "$"
+    kesha_string = string_exp.join
+    kesha_array << kesha_string
+  end
+end  
