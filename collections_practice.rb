@@ -42,11 +42,8 @@ end
 def kesha_maker(array)
   kesha_array = []
   array.each do |string|
-    string_exp = string.split
-    binding.pry
-    string_exp[2] = "$"
-    kesha_string = string_exp.join
-    kesha_array << kesha_string
+    string[2] = "$"
+    kesha_array << string
   end
 end  
 
